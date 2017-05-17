@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="如何暂停gif" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z9O-5R-0Km" customClass="YYAnimatedImageView">
+                                <rect key="frame" x="0.0" y="208.5" width="375" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Z9O-5R-0Km" secondAttribute="height" multiplier="3:2" id="YEr-VI-nKq"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ff-jZ-cxd">
+                                <rect key="frame" x="40" y="139" width="68" height="30"/>
+                                <state key="normal" title="本地webp"/>
+                                <connections>
+                                    <action selector="localWebpClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TdE-ak-bDv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6j7-xQ-d4k">
+                                <rect key="frame" x="267" y="139" width="68" height="30"/>
+                                <state key="normal" title="网络webp"/>
+                                <connections>
+                                    <action selector="netWebpClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3li-Km-S41"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Ff-jZ-cxd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="8bO-tl-vJa"/>
+                            <constraint firstItem="Z9O-5R-0Km" firstAttribute="top" secondItem="8Ff-jZ-cxd" secondAttribute="bottom" constant="40" id="GMu-wV-rVo"/>
+                            <constraint firstAttribute="trailing" secondItem="6j7-xQ-d4k" secondAttribute="trailing" constant="40" id="bAN-0G-BLg"/>
+                            <constraint firstItem="Z9O-5R-0Km" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ctw-84-gmh"/>
+                            <constraint firstItem="Z9O-5R-0Km" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nfM-WM-gUs"/>
+                            <constraint firstItem="Z9O-5R-0Km" firstAttribute="top" secondItem="6j7-xQ-d4k" secondAttribute="bottom" constant="40" id="p9t-Vh-MWy"/>
+                            <constraint firstAttribute="trailing" secondItem="Z9O-5R-0Km" secondAttribute="trailing" id="tLN-ok-cY5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Z9O-5R-0Km" id="9EX-QL-I9p"/>
+                        <outlet property="localWebp" destination="8Ff-jZ-cxd" id="PQX-gS-0F7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

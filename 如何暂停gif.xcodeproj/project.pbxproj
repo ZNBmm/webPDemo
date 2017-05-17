@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04205CE71ECC20A4006AE5AE /* menghuanhunli.webp in Resources */ = {isa = PBXBuildFile; fileRef = 04205CE61ECC20A4006AE5AE /* menghuanhunli.webp */; };
+		0478DC021E8E2C7200B444B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC011E8E2C7200B444B9 /* AppDelegate.swift */; };
+		0478DC041E8E2C7200B444B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478DC031E8E2C7200B444B9 /* ViewController.swift */; };
+		0478DC071E8E2C7200B444B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478DC051E8E2C7200B444B9 /* Main.storyboard */; };
+		0478DC091E8E2C7200B444B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0478DC081E8E2C7200B444B9 /* Assets.xcassets */; };
+		0478DC0C1E8E2C7200B444B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478DC0A1E8E2C7200B444B9 /* LaunchScreen.storyboard */; };
+		0478DC141E8E2E3D00B444B9 /* psb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0478DC131E8E2E3D00B444B9 /* psb.gif */; };
+		70A86B08A0E5FEEA0EF94D3F /* Pods_____gif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560F9AE4A7F9156FFE2648A2 /* Pods_____gif.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04205CE61ECC20A4006AE5AE /* menghuanhunli.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = menghuanhunli.webp; sourceTree = "<group>"; };
+		0478DBFE1E8E2C7200B444B9 /* 如何暂停gif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "如何暂停gif.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478DC011E8E2C7200B444B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0478DC031E8E2C7200B444B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0478DC061E8E2C7200B444B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0478DC081E8E2C7200B444B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0478DC0B1E8E2C7200B444B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0478DC0D1E8E2C7200B444B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0478DC131E8E2E3D00B444B9 /* psb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = psb.gif; sourceTree = "<group>"; };
+		560F9AE4A7F9156FFE2648A2 /* Pods_____gif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____gif.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C208709B780F1C637D9CA5F4 /* Pods-如何暂停gif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-如何暂停gif.release.xcconfig"; path = "Pods/Target Support Files/Pods-如何暂停gif/Pods-如何暂停gif.release.xcconfig"; sourceTree = "<group>"; };
+		CD781FCF6697D2A11AFC2302 /* Pods-如何暂停gif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-如何暂停gif.debug.xcconfig"; path = "Pods/Target Support Files/Pods-如何暂停gif/Pods-如何暂停gif.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0478DBFB1E8E2C7200B444B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A86B08A0E5FEEA0EF94D3F /* Pods_____gif.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0478DBF51E8E2C7000B444B9 = {
+			isa = PBXGroup;
+			children = (
+				0478DC001E8E2C7200B444B9 /* 如何暂停gif */,
+				0478DBFF1E8E2C7200B444B9 /* Products */,
+				5F0127741E03C81A43A72A4E /* Pods */,
+				920892750E694795FFD44E8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0478DBFF1E8E2C7200B444B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0478DBFE1E8E2C7200B444B9 /* 如何暂停gif.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0478DC001E8E2C7200B444B9 /* 如何暂停gif */ = {
+			isa = PBXGroup;
+			children = (
+				0478DC131E8E2E3D00B444B9 /* psb.gif */,
+				0478DC011E8E2C7200B444B9 /* AppDelegate.swift */,
+				0478DC031E8E2C7200B444B9 /* ViewController.swift */,
+				04205CE61ECC20A4006AE5AE /* menghuanhunli.webp */,
+				0478DC051E8E2C7200B444B9 /* Main.storyboard */,
+				0478DC081E8E2C7200B444B9 /* Assets.xcassets */,
+				0478DC0A1E8E2C7200B444B9 /* LaunchScreen.storyboard */,
+				0478DC0D1E8E2C7200B444B9 /* Info.plist */,
+			);
+			path = "如何暂停gif";
+			sourceTree = "<group>";
+		};
+		5F0127741E03C81A43A72A4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD781FCF6697D2A11AFC2302 /* Pods-如何暂停gif.debug.xcconfig */,
+				C208709B780F1C637D9CA5F4 /* Pods-如何暂停gif.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		920892750E694795FFD44E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				560F9AE4A7F9156FFE2648A2 /* Pods_____gif.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0478DBFD1E8E2C7200B444B9 /* 如何暂停gif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478DC101E8E2C7200B444B9 /* Build configuration list for PBXNativeTarget "如何暂停gif" */;
+			buildPhases = (
+				192D3A9C64A82F1F60BBD43E /* [CP] Check Pods Manifest.lock */,
+				0478DBFA1E8E2C7200B444B9 /* Sources */,
+				0478DBFB1E8E2C7200B444B9 /* Frameworks */,
+				0478DBFC1E8E2C7200B444B9 /* Resources */,
+				93823AD8A19A3CF1F37098B6 /* [CP] Embed Pods Frameworks */,
+				3F7A924BE9DC2B38659F3639 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "如何暂停gif";
+			productName = "如何暂停gif";
+			productReference = 0478DBFE1E8E2C7200B444B9 /* 如何暂停gif.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0478DBF61E8E2C7100B444B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0478DBFD1E8E2C7200B444B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0478DBF91E8E2C7100B444B9 /* Build configuration list for PBXProject "如何暂停gif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0478DBF51E8E2C7000B444B9;
+			productRefGroup = 0478DBFF1E8E2C7200B444B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0478DBFD1E8E2C7200B444B9 /* 如何暂停gif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0478DBFC1E8E2C7200B444B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478DC141E8E2E3D00B444B9 /* psb.gif in Resources */,
+				0478DC0C1E8E2C7200B444B9 /* LaunchScreen.storyboard in Resources */,
+				0478DC091E8E2C7200B444B9 /* Assets.xcassets in Resources */,
+				04205CE71ECC20A4006AE5AE /* menghuanhunli.webp in Resources */,
+				0478DC071E8E2C7200B444B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		192D3A9C64A82F1F60BBD43E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7A924BE9DC2B38659F3639 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-如何暂停gif/Pods-如何暂停gif-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93823AD8A19A3CF1F37098B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-如何暂停gif/Pods-如何暂停gif-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0478DBFA1E8E2C7200B444B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478DC041E8E2C7200B444B9 /* ViewController.swift in Sources */,
+				0478DC021E8E2C7200B444B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0478DC051E8E2C7200B444B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478DC061E8E2C7200B444B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0478DC0A1E8E2C7200B444B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478DC0B1E8E2C7200B444B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0478DC0E1E8E2C7200B444B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0478DC0F1E8E2C7200B444B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0478DC111E8E2C7200B444B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD781FCF6697D2A11AFC2302 /* Pods-如何暂停gif.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "如何暂停gif/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZNB.----gif";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0478DC121E8E2C7200B444B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C208709B780F1C637D9CA5F4 /* Pods-如何暂停gif.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "如何暂停gif/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZNB.----gif";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0478DBF91E8E2C7100B444B9 /* Build configuration list for PBXProject "如何暂停gif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478DC0E1E8E2C7200B444B9 /* Debug */,
+				0478DC0F1E8E2C7200B444B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478DC101E8E2C7200B444B9 /* Build configuration list for PBXNativeTarget "如何暂停gif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478DC111E8E2C7200B444B9 /* Debug */,
+				0478DC121E8E2C7200B444B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0478DBF61E8E2C7100B444B9 /* Project object */;
+}
